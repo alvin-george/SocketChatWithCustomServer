@@ -8,20 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		1835D3C51F878F1200DDEB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835D3C41F878F1200DDEB97 /* AppDelegate.swift */; };
-		1835D3C71F878F1200DDEB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835D3C61F878F1200DDEB97 /* ViewController.swift */; };
 		1835D3CA1F878F1200DDEB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1835D3C81F878F1200DDEB97 /* Main.storyboard */; };
 		1835D3CC1F878F1200DDEB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1835D3CB1F878F1200DDEB97 /* Assets.xcassets */; };
 		1835D3CF1F878F1200DDEB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1835D3CD1F878F1200DDEB97 /* LaunchScreen.storyboard */; };
+		1835D3D71F878F6D00DDEB97 /* TeacherChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835D3D61F878F6D00DDEB97 /* TeacherChatController.swift */; };
+		1835D3DD1F87990900DDEB97 /* SocketIOMangerForOneToOneChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835D3D81F87990900DDEB97 /* SocketIOMangerForOneToOneChat.swift */; };
+		1835D3DE1F87990900DDEB97 /* UIAppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835D3D91F87990900DDEB97 /* UIAppExtensions.swift */; };
+		1835D3E01F87990900DDEB97 /* AppEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835D3DB1F87990900DDEB97 /* AppEnum.swift */; };
+		1835D3E11F87990900DDEB97 /* ChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835D3DC1F87990900DDEB97 /* ChatMessageView.swift */; };
+		1835D3E41F879A0B00DDEB97 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835D3E31F879A0A00DDEB97 /* ChatCell.swift */; };
+		1835D3EA1F879A4700DDEB97 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835D3E91F879A4700DDEB97 /* BaseCell.swift */; };
+		1835D3EC1F879AEB00DDEB97 /* TeacherChatTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835D3EB1F879AEB00DDEB97 /* TeacherChatTableCell.swift */; };
+		36225A386DDE1BDE24F0EF36 /* Pods_SampleSocketOneToOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E17197ACBDA8D086275951 /* Pods_SampleSocketOneToOne.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1835D3C11F878F1100DDEB97 /* SampleSocketOneToOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSocketOneToOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1835D3C41F878F1200DDEB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1835D3C61F878F1200DDEB97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1835D3C91F878F1200DDEB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1835D3CB1F878F1200DDEB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1835D3CE1F878F1200DDEB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1835D3D01F878F1200DDEB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1835D3D61F878F6D00DDEB97 /* TeacherChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherChatController.swift; sourceTree = "<group>"; };
+		1835D3D81F87990900DDEB97 /* SocketIOMangerForOneToOneChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOMangerForOneToOneChat.swift; sourceTree = "<group>"; };
+		1835D3D91F87990900DDEB97 /* UIAppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAppExtensions.swift; sourceTree = "<group>"; };
+		1835D3DB1F87990900DDEB97 /* AppEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnum.swift; sourceTree = "<group>"; };
+		1835D3DC1F87990900DDEB97 /* ChatMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageView.swift; sourceTree = "<group>"; };
+		1835D3E31F879A0A00DDEB97 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		1835D3E91F879A4700DDEB97 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		1835D3EB1F879AEB00DDEB97 /* TeacherChatTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherChatTableCell.swift; sourceTree = "<group>"; };
+		189329361F94DE3B002A262A /* SampleSocketOneToOne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleSocketOneToOne.entitlements; sourceTree = "<group>"; };
+		31E17197ACBDA8D086275951 /* Pods_SampleSocketOneToOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleSocketOneToOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FBEB70A90D0AA54B01251E /* Pods-SampleSocketOneToOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSocketOneToOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleSocketOneToOne/Pods-SampleSocketOneToOne.debug.xcconfig"; sourceTree = "<group>"; };
+		C35DE51DC20A368B983EBD88 /* Pods-SampleSocketOneToOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSocketOneToOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleSocketOneToOne/Pods-SampleSocketOneToOne.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36225A386DDE1BDE24F0EF36 /* Pods_SampleSocketOneToOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +60,8 @@
 			children = (
 				1835D3C31F878F1100DDEB97 /* SampleSocketOneToOne */,
 				1835D3C21F878F1100DDEB97 /* Products */,
+				7A1E9F73FC1F9A36AF6F20A7 /* Pods */,
+				4FDBFBDE72C4ACF424418B82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +76,55 @@
 		1835D3C31F878F1100DDEB97 /* SampleSocketOneToOne */ = {
 			isa = PBXGroup;
 			children = (
+				189329361F94DE3B002A262A /* SampleSocketOneToOne.entitlements */,
 				1835D3C41F878F1200DDEB97 /* AppDelegate.swift */,
-				1835D3C61F878F1200DDEB97 /* ViewController.swift */,
+				1835D3E51F879A0E00DDEB97 /* ChatCell */,
+				1835D3E21F87991100DDEB97 /* Helper */,
+				1835D3D61F878F6D00DDEB97 /* TeacherChatController.swift */,
 				1835D3C81F878F1200DDEB97 /* Main.storyboard */,
 				1835D3CB1F878F1200DDEB97 /* Assets.xcassets */,
 				1835D3CD1F878F1200DDEB97 /* LaunchScreen.storyboard */,
 				1835D3D01F878F1200DDEB97 /* Info.plist */,
 			);
 			path = SampleSocketOneToOne;
+			sourceTree = "<group>";
+		};
+		1835D3E21F87991100DDEB97 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1835D3D91F87990900DDEB97 /* UIAppExtensions.swift */,
+				1835D3D81F87990900DDEB97 /* SocketIOMangerForOneToOneChat.swift */,
+				1835D3DB1F87990900DDEB97 /* AppEnum.swift */,
+				1835D3DC1F87990900DDEB97 /* ChatMessageView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1835D3E51F879A0E00DDEB97 /* ChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				1835D3EB1F879AEB00DDEB97 /* TeacherChatTableCell.swift */,
+				1835D3E91F879A4700DDEB97 /* BaseCell.swift */,
+				1835D3E31F879A0A00DDEB97 /* ChatCell.swift */,
+			);
+			path = ChatCell;
+			sourceTree = "<group>";
+		};
+		4FDBFBDE72C4ACF424418B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E17197ACBDA8D086275951 /* Pods_SampleSocketOneToOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A1E9F73FC1F9A36AF6F20A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91FBEB70A90D0AA54B01251E /* Pods-SampleSocketOneToOne.debug.xcconfig */,
+				C35DE51DC20A368B983EBD88 /* Pods-SampleSocketOneToOne.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1835D3D31F878F1200DDEB97 /* Build configuration list for PBXNativeTarget "SampleSocketOneToOne" */;
 			buildPhases = (
+				FF9D2A10889C47F1C11A7E03 /* [CP] Check Pods Manifest.lock */,
 				1835D3BD1F878F1100DDEB97 /* Sources */,
 				1835D3BE1F878F1100DDEB97 /* Frameworks */,
 				1835D3BF1F878F1100DDEB97 /* Resources */,
+				E7C58DE0A4D89FAFD15BB7D6 /* [CP] Embed Pods Frameworks */,
+				8B8D49F13EBF6E063964FE45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +162,15 @@
 				TargetAttributes = {
 					1835D3C01F878F1100DDEB97 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -131,13 +205,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B8D49F13EBF6E063964FE45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleSocketOneToOne/Pods-SampleSocketOneToOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C58DE0A4D89FAFD15BB7D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleSocketOneToOne/Pods-SampleSocketOneToOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9D2A10889C47F1C11A7E03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1835D3BD1F878F1100DDEB97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1835D3C71F878F1200DDEB97 /* ViewController.swift in Sources */,
+				1835D3D71F878F6D00DDEB97 /* TeacherChatController.swift in Sources */,
+				1835D3E41F879A0B00DDEB97 /* ChatCell.swift in Sources */,
 				1835D3C51F878F1200DDEB97 /* AppDelegate.swift in Sources */,
+				1835D3EA1F879A4700DDEB97 /* BaseCell.swift in Sources */,
+				1835D3E11F87990900DDEB97 /* ChatMessageView.swift in Sources */,
+				1835D3DD1F87990900DDEB97 /* SocketIOMangerForOneToOneChat.swift in Sources */,
+				1835D3E01F87990900DDEB97 /* AppEnum.swift in Sources */,
+				1835D3DE1F87990900DDEB97 /* UIAppExtensions.swift in Sources */,
+				1835D3EC1F879AEB00DDEB97 /* TeacherChatTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +401,17 @@
 		};
 		1835D3D41F878F1200DDEB97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FBEB70A90D0AA54B01251E /* Pods-SampleSocketOneToOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WXUVRBQDNB;
 				INFOPLIST_FILE = SampleSocketOneToOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sample.sodio.SampleSocketOneToOne;
+				PRODUCT_BUNDLE_IDENTIFIER = sodio.EyaalZayeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "17738ce0-f6f0-41fe-88e9-b14d779fa454";
+				PROVISIONING_PROFILE_SPECIFIER = Eyal_Dev;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +419,16 @@
 		};
 		1835D3D51F878F1200DDEB97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35DE51DC20A368B983EBD88 /* Pods-SampleSocketOneToOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SampleSocketOneToOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sample.sodio.SampleSocketOneToOne;
+				PRODUCT_BUNDLE_IDENTIFIER = sodio.EyaalZayeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
